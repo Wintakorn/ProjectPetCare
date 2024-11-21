@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native"; 
-export const styles = StyleSheet.create({
+export const styles_productdetail = StyleSheet.create({
     container: {
       flex: 1,
       backgroundColor: '#EFF5F5',
