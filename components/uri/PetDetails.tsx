@@ -36,10 +36,10 @@ const PetDetail: React.FC<{ route: PetDetailRouteProp }> = ({ route }) => {
                 </View>
                 <View>
                     <Text style={styles_PetDetail.headerTitle}>
-                        <Text style={styles_PetDetail.headerTitleMain}>Pet</Text>
-                        <Text style={styles_PetDetail.headerTitleSub}>Care</Text>
+                        <Text style={styles_PetDetail.headerTitleMain}>{pet.name}</Text>
+                     
                     </Text>
-                    <Text style={styles_PetDetail.headerLocation}>📍 Ubonratchathani</Text>
+                    
                 </View>
             </View>
 

@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import HomeScreen from './(tabs)/home';
 import PetDetail from '@/components/uri/PetDetails';
 import ProductDetail from '@/components/uri/ProductDetail';
-
+import MangaAll from '@/components/uri/ViewallManga';
 // กำหนด RootStackParamList
 export type RootStackParamList = {
     HomeScreen: undefined;
@@ -38,6 +38,7 @@ const AppNavigator = () => {
             <Stack.Screen name="HomeScreen" component={HomeScreen} />
             <Stack.Screen name="PetDetail" component={PetDetail} />
             <Stack.Screen name="ProductDetail" component={ProductDetail} />
+            <Stack.Screen name="MangaAll" component={MangaAll} />
         </Stack.Navigator>
     );
 };

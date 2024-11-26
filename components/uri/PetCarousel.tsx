@@ -10,7 +10,9 @@ const PetCarousel: React.FC = () => {
 
 
     return (
-        <View>
+        <View style={{
+       
+        }}>
             <View style={{ marginHorizontal: 20, padding: 10, marginTop: 8 }}>
                 <Text style={{ color: '#6C6C6C', fontSize: 18 }}>Student</Text>
             </View>

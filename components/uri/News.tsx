@@ -56,7 +56,7 @@ const News: React.FC = () => {
     };
 
     return (
-        <ScrollView>
+        
             <View style={styles_News.container}>
                 {/* Header */}
                 <View style={styles_News.header}>
@@ -179,7 +179,7 @@ const News: React.FC = () => {
                     </Pressable>
                 </Modal>
             </View>
-        </ScrollView>
+      
     );
 };
 
